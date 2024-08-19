@@ -1,8 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;1,100;1,300&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap");
-
-/* our team font */
-
 * {
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -23,6 +19,21 @@
     border: none;
     color: white;
     padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.but {
+    background-color: #b6b6b6;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -103,7 +114,7 @@ section {
     text-decoration: none;
     margin-right: auto;
     font-size: 2.5rem;
-    color: #10221b;
+    color: #414141;
     font-weight: bolder;
 }
 
@@ -125,7 +136,7 @@ section {
 .header .navbar #nav-close {
     font-size: 5rem;
     cursor: pointer;
-    color: #10221b;
+    color: #3b3b3b;
     display: none;
 }
 
@@ -234,234 +245,147 @@ section {
 }
 
 
-/* body {
-    
-} */
+/* ----------------------------------------------------------------    header css ends ---------     */
+
+
+/* ---------------------banner css */
 
 .banner-area {
     height: 60vh;
     width: 100%;
-    background: linear-gradient( #1c1a2521, #000000ab), url(../images/aboout.JPG) no-repeat;
-    background-position: center center;
+    background: linear-gradient( #1c1a2521, #000000ab), url(../images/camping.avif) no-repeat;
+    /* background-color: #eee; */
+    background-position: center;
     background-size: cover;
 }
 
-.content-area {
-    height: 100%;
-    width: 100%;
-    background-color: #eee;
-    position: relative;
-}
 
-.who-we-are .title h1 {
-    padding: 100px 0 0 0;
-    font-weight: 700;
-    font-size: 30px;
-}
+/* ----------------------------------------------------------------    products css start ---------     */
 
-.who-we-are .paragraph p {
-    padding: 20px 100px 0 100px;
-    font-size: 15px;
-    text-align: center;
-}
-
-.what-is-nsbm .title h1 {
-    padding: 100px 0 0 0;
-    font-weight: 700;
-    font-size: 30px;
-}
-
-.what-is-nsbm .paragraph p {
-    padding: 20px 100px 0 100px;
-    font-size: 15px;
-    text-align: center;
-}
-
-.what-is-nsbm .paragraph a {
-    text-decoration: none;
-}
-
-
-/* .our-team .title h1{
-    padding: 100px 0 0 100px;
-    font-weight: 700;
-    font-size: 30px;
-}
- */
-
-.our-team {
-    font-size: 1.7rem;
-    padding: 100px 0;
-    font-family: "roboto", sans-serif;
-}
-
-.our-team .title h1 {
-    text-align: center;
-    padding-bottom: 10px;
-    font-weight: 700;
-    font-size: 40px;
-}
-
-.shadow {
-    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1) !important;
-}
-
-.profile-card {
-    padding-bottom: 80px !important;
-}
-
-.profile-card .profile-card_image img {
-    width: 100px;
-    height: 100px;
-    border-radius: 100%;
-    object-fit: cover;
-    border: 4px solid #eee;
-}
-
-.profile-card .profile-card_social {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-}
-
-.profile-card .profile-card_social img {
-    width: 33px;
-    margin: 5px 10px;
-}
-
-.text-muted {
-    font-size: 15px;
-}
-
-h3 {
-    font-size: 20px;
-    font-weight: 700;
-}
-
-
-/* contact form */
-
-.contact-container {
-    position: relative;
-    width: 100%;
-    height: 100%;
+.tabs {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    /* max-width: 400px; */
+    width: 100%;
+    padding: 0 100px 0 100px;
+    margin-top: 100px;
+}
+
+.tabs__head {
+    display: flex;
     align-items: center;
-    padding: 20px 100px 100px 100px;
+    justify-content: space-between;
+    background: #eee;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, .1);
+    border-radius: 30px;
+    padding: 10px 5px;
+    margin-bottom: 20px;
 }
 
-.contact-container:after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
-    /* background: url("img/contact.jpg") no-repeat center;
-	background-size: cover;
-	filter: blur(50px); */
-    background-color: #eee;
-    z-index: -1;
-}
-
-.title h1 {
-    text-align: center;
-    padding-bottom: 10px;
-    font-weight: 700;
-    font-size: 40px;
-    background-color: #eee;
-    padding: 0;
-    margin: 0;
-}
-
-.para p {
-    background-color: #eee;
-    margin: 0;
-    padding-bottom: 20px;
-    padding-top: 10px;
-}
-
-.contact-box {
-    max-width: 1000px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-color: #fff;
-    box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.19);
-}
-
-.left {
-    background: url("../images/contact1.jpg") no-repeat center;
-    background-size: cover;
-    height: 100%;
-}
-
-.right {
-    padding: 25px 40px;
-}
-
-h2 {
-    position: relative;
-    padding: 0 0 10px;
-    margin-bottom: 10px;
-    font-size: 30px;
-}
-
-h2:after {
-    content: '';
-    position: absolute;
-    left: 50%;
-    bottom: 0;
-    transform: translateX(-50%);
-    height: 4px;
-    width: 50px;
-    border-radius: 2px;
-    background-color: #10221b;
-}
-
-.field {
-    width: 100%;
-    border: 2px solid rgba(0, 0, 0, 0);
-    outline: none;
-    background-color: rgba(230, 230, 230, 0.6);
-    padding: 0.5rem 1rem;
-    font-size: 1.7rem;
-    margin-bottom: 22px;
-    transition: .3s;
-}
-
-.field:hover {
-    background-color: rgba(0, 0, 0, 0.1);
-}
-
-textarea {
-    min-height: 150px;
-}
-
-.send-btn {
-    width: 100%;
-    padding: 0.5rem 1rem;
-    /* background-color: #2ecc71; */
-    background-color: #10221b;
-    color: #fff;
-    font-size: 1.7rem;
-    border: none;
-    outline: none;
+.tabs__toggle {
+    margin: 0 5px;
+    padding: 7px 25px;
+    background: #eee;
+    border-radius: 20px;
     cursor: pointer;
-    transition: .3s;
+    transition: .5s;
 }
 
-.send-btn:hover {
-    background-color: black;
+.tabs__name {
+    font-weight: 500;
+    font-size: 14px;
+    color: #484848;
 }
 
-.field:focus {
-    border: 2px solid rgba(30, 85, 250, 0.47);
-    background-color: #fff;
+.tabs__body {
+    background: #fff;
+    /* box-shadow: 0px 4px 5px rgba(0,0,0,.1); */
+    border-radius: 25px;
+    padding: 30px;
+    position: relative;
+}
+
+.tabs__title {
+    font-weight: 600;
+    font-size: 24px;
+    color: #484848;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+/* .tabs__text {
+    font-size: 14px;
+    line-height: 1.2;
+    color: #484848;
+  } */
+
+.tabs__content {
+    display: none;
+}
+
+.tabs__toggle.is-active {
+    /* background: #e7eef8; */
+    background: white;
+}
+
+.tabs__toggle.is-active .tabs__name {
+    color: #2a61d8;
+}
+
+.tabs__content.is-active {
+    display: block;
+}
+
+
+/* ------------------------------bootstraps css start----------------------- */
+
+.adventurepage {
+    padding-top: 5%;
+}
+
+.adventureh1 {
+    padding-top: 50px;
+    color: #219150;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+hr {
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    padding-top: 50px;
+}
+
+.container h5 {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 48px;
+    color: var(--black);
+}
+
+.container p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    color: var(--gray-1);
+    padding-top: 20px;
+}
+
+section.information .info-1 {
+    padding: 183px e;
+}
+
+.post {
+    padding-top: 100px;
+}
+
+.lpost {
+    padding-bottom: 100px;
 }
 
 
@@ -510,15 +434,6 @@ textarea {
     }
 }
 
-@media screen and (max-width: 880px) {
-    .contact-box {
-        grid-template-columns: 1fr;
-    }
-    .left {
-        height: 200px;
-    }
-}
-
 @media (max-width: 768px) {
     .header #menu-btn {
         display: inline-block;
@@ -526,6 +441,7 @@ textarea {
     .header .navbar {
         position: fixed;
         top: 0;
+        color: grey;
         left: -110%;
         background: #fff;
         z-index: 10000;
@@ -569,26 +485,6 @@ textarea {
         width: 40px;
         height: 40px;
     }
-    .row {
-        width: 325px;
-        margin: auto;
-    }
-}
-
-@media (max-width: 650px) {
-    .who-we-are .paragraph p {
-        padding: 20px 50px 0 50px;
-    }
-    .what-is-nsbm .paragraph p {
-        padding: 20px 50px 0 50px;
-    }
-}
-
-@media (max-width: 500px) {
-    .contact-container {
-        width: 100%;
-        padding: 10px 50px 50px 50px;
-    }
 }
 
 @media (max-width: 450px) {
@@ -597,8 +493,25 @@ textarea {
     }
 }
 
-@media (max-width: 450px) {
-    .contact-container {
-        padding: 10px 20px 50px 20px;
+@media (max-width: 779px) {
+    .tabs {
+        width: 100vw;
+        padding: 0 10px 0 10px;
+    }
+}
+
+@media (max-width: 779px) {}
+
+@media (max-width: 560px) {
+    .container img {
+        width: 80vw;
+    }
+    .tabs__toggle {
+        margin: 0;
+        padding: 7px 7px;
+        border-radius: 15px;
+    }
+    .tabs__head {
+        padding: 10px 20px;
     }
 }

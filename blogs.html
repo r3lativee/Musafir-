@@ -4,269 +4,247 @@
 <head>
 
 
-	<title>Blog</title>
+    <title>Blog</title>
 
 
-	<!-- font awesome cdn link  -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
-	<!-- blog font link -->
-	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css'>
+    <!-- blog font link -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css'>
 
-	<!-- bootstrap cdn link -->
-	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css'>
+    <!-- bootstrap cdn link -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css'>
 
-	<!-- custom css file link  -->
-	<link rel="stylesheet" href="css/blog.css">
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/blog.css">
 
 </head>
 
 <body>
-	<div id="top"></div>
-	<!-- header section starts  -->
+    <div id="top"></div>
+    <!-- header section starts  -->
 
-	<header class="header">
+    <header class="header">
 
-		<a href="#" class="logo"> <i class="fas fa-hiking"></i> musafir. </a>
+        <a href="#" class="logo"> <i class="fas fa-hiking"></i> musafir. </a>
 
-		<nav class="navbar">
-			<div id="nav-close" class="fas fa-times"></div>
-			<a href="index.html">home</a>
-			<a href="adventure.html">Adventure</a>
-			<a href="map.html">map</a>
-			<a href="blogs.html">blogs</a>
-			<a href="events.html">Events</a>
-			<a href="products.html">NE Products</a>
-			<a href="camping.html">Equipments</a>
-			<a href="about.html">about us</a>
+        <nav class="navbar">
+            <div id="nav-close" class="fas fa-times"></div>
+            <a href="index.html">home</a>
+            <a href="adventure.html">Adventure</a>
+            <a href="map.html">map</a>
+            <a href="blogs.html">blogs</a>
+            <a href="events.html">Events</a>
+            <a href="products.html">NE Products</a>
+            <a href="camping.html">Equipments</a>
+            <a href="about.html">about us</a>
+            <a onclick="window.open('https://musafir-ai.streamlit.app/')" class="ai-btn"><img height="20px" src="images/ai.png"></a>
 
-		</nav>
+        </nav>
 
-		<div class="icons">
-			<div id="menu-btn" class="fas fa-bars"></div>
-			<!-- <a href="#" class="fas fa-shopping-cart"></a> -->
-			<div id="search-btn" class="fas fa-search"></div>
-		</div>
+        <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <!-- <a href="#" class="fas fa-shopping-cart"></a> -->
+            <div id="search-btn" class=""></div>
+        </div>
 
-	</header>
+    </header>
 
-	<!-- header section ends -->
-
-
-	<!-- search form start -->
-
-	<div class="search-form">
-
-		<div id="close-search" class="fas fa-times"></div>
-
-		<form action="">
-			<input type="search" name="" placeholder="search here..." id="search-box">
-			<label for="search-box" class="fas fa-search"></label>
-		</form>
-	</div>
-	<!-- search form ends-->
+    <!-- header section ends -->
 
 
+    <!-- search form start -->
 
-	<!-- ---------------------------banner -->
-	<div class="banner-area"></div>
+    <div class="search-form">
+
+        <div id="close-search" class="fas fa-times"></div>
+
+        <form action="">
+            <input type="search" name="" placeholder="search here..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+    </div>
+    <!-- search form ends-->
 
 
 
-	<!-- ------------------blog html start--------------------------------------------- -->
+    <!-- ---------------------------banner -->
+    <div class="banner-area"></div>
 
 
 
-	<section class="light">
-		<div class="container py-2">
-			<div class="h1 text-center text-dark pb-4 " id="pageHeaderTitle">Welcome To Our Blog</div>
+    <!-- ------------------blog html start--------------------------------------------- -->
 
 
-			<article class="postcard light red">
-				<a class="postcard__img_link" href="#">
-					<img class="postcard__img" src="images/2.jpg" alt="Image Title" />
-				</a>
-				<div class="postcard__text t-dark" style="padding-right: 40px;">
-					<h1 class="postcard__title blue"><a href="#">Sela Pass</a></h1>
-					<div class="postcard__subtitle small">
-						<time datetime="2022-12-25 12:00:00">
+
+    <section class="light">
+        <div class="container py-2">
+            <div class="h1 text-center text-dark pb-4 " id="pageHeaderTitle">Welcome To Our Blog</div>
+
+
+            <article class="postcard light red">
+                <a class="postcard__img_link" href="#">
+                    <img class="postcard__img" src="images/2.jpg" alt="Image Title" />
+                </a>
+                <div class="postcard__text t-dark" style="padding-right: 40px;">
+                    <h1 class="postcard__title blue"><a href="#">Sela Pass</a></h1>
+                    <div class="postcard__subtitle small">
+                        <time datetime="2022-12-25 12:00:00">
 							<i class="fas fa-calendar-alt mr-2"></i>Sun, April 28th 2024
 						</time>
-					</div>
-					<div class="postcard__bar"></div>
-					<div class="postcard__preview-txt">Sela Pass is a high-altitude mountain pass in Arunachal Pradesh,
-						India, at an elevation of 13,700 ft (4,170 m). It connects the Buddhist town of Tawang to Dirang
-						and Guwahati, and is located on the border of the Tawang and West Kameng districts.</div>
-					<ul class="postcard__tagbox">
-						<li class="tag__item"><i class="fa fa-compass" aria-hidden="true"></i> Direction</li>
-						<!-- <li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
+                    </div>
+                    <div class="postcard__bar"></div>
+                    <div class="postcard__preview-txt">Sela Pass is a high-altitude mountain pass in Arunachal Pradesh, India, at an elevation of 13,700 ft (4,170 m). It connects the Buddhist town of Tawang to Dirang and Guwahati, and is located on the border of the Tawang and West Kameng
+                        districts.
+                    </div>
+                    <ul class="postcard__tagbox">
+                        <li class="tag__item"><i class="fa fa-compass" aria-hidden="true"></i> Direction</li>
+                        <!-- <li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
 					<li class="tag__item play blue">
 						<a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a> -->
-						</li>
-					</ul>
-				</div>
-			</article>
+                        </li>
+                    </ul>
+                </div>
+            </article>
 
 
 
-			<article class="postcard light blue">
-				<a class="postcard__img_link" href="#">
-					<img class="postcard__img" src="images/kaziranga.jpg" alt="Image Title" />
-				</a>
-				<div class="postcard__text t-dark" style="padding-right: 40px;">
-					<h1 class="postcard__title blue" align="right"><a href="#">Kaziranga National Park</a></h1>
-					<div class="postcard__subtitle small" align="right">
-						<time datetime="2022-12-25 12:00:00" align="right">
+            <article class="postcard light blue">
+                <a class="postcard__img_link" href="#">
+                    <img class="postcard__img" src="images/kaziranga.jpg" alt="Image Title" />
+                </a>
+                <div class="postcard__text t-dark" style="padding-right: 40px;">
+                    <h1 class="postcard__title blue" align="right"><a href="#">Kaziranga National Park</a></h1>
+                    <div class="postcard__subtitle small" align="right">
+                        <time datetime="2022-12-25 12:00:00" align="right">
 							<i class="fas fa-calendar-alt mr-2"></i>Sun, April 28th 2024
 						</time>
-					</div>
-					<div class="postcard__bar"></div>
-					<div class="postcard__preview-txt">Kaziranga National Park famous for its one-horned Rhinoceros is
-						located in Golaghat, Nagaon and Sonitpur districts of Assam. Kaziranga was designated a UNESCO
-						World Heritage site in 1985. The park has an area of some 430 square km and lies between the
-						Brahmaputra River and the Karbi (Mikir) Hills. The Kaziranga Proposed Reserve Forest was created
-						with an area of 232 square km on 1st June 1905 and with the enactment of Assam National Park Act
-						of 1968 it was declared as the National Park. It is a protected area that is rich in natural
-						beauty and diversity of flora and fauna. </div>
-					<ul class="postcard__tagbox">
-						<li class="tag__item"><i class="fa fa-compass" aria-hidden="true"></i> Direction</li>
-						</li>
-					</ul>
-				</div>
-			</article>
+                    </div>
+                    <div class="postcard__bar"></div>
+                    <div class="postcard__preview-txt">Kaziranga National Park famous for its one-horned Rhinoceros is located in Golaghat, Nagaon and Sonitpur districts of Assam. Kaziranga was designated a UNESCO World Heritage site in 1985. The park has an area of some 430 square km
+                        and lies between the Brahmaputra River and the Karbi (Mikir) Hills. The Kaziranga Proposed Reserve Forest was created with an area of 232 square km on 1st June 1905 and with the enactment of Assam National Park Act of 1968 it was
+                        declared as the National Park. It is a protected area that is rich in natural beauty and diversity of flora and fauna. </div>
+                    <ul class="postcard__tagbox">
+                        <li class="tag__item"><i class="fa fa-compass" aria-hidden="true"></i> Direction</li>
+                        </li>
+                    </ul>
+                </div>
+            </article>
 
-			<article class="postcard light red">
-				<a class="postcard__img_link" href="#">
-					<img class="postcard__img" src="images/bumla_me.jpg" alt="Image Title" />
-				</a>
-				<div class="postcard__text t-dark" style="padding-left: 45px;">
-					<h1 class="postcard__title red"><a href="#">Bum La Pass</a></h1>
-					<div class="postcard__subtitle small">
-						<time datetime="2020-05-25 12:00:00">
+            <article class="postcard light red">
+                <a class="postcard__img_link" href="#">
+                    <img class="postcard__img" src="images/bumla_me.jpg" alt="Image Title" />
+                </a>
+                <div class="postcard__text t-dark" style="padding-left: 45px;">
+                    <h1 class="postcard__title red"><a href="#">Bum La Pass</a></h1>
+                    <div class="postcard__subtitle small">
+                        <time datetime="2020-05-25 12:00:00">
 							<i class="fas fa-calendar-alt mr-2"></i>Sun, April 28th 2024
 						</time>
-					</div>
-					<div class="postcard__bar"></div>
-					<div class="postcard__preview-txt">The Bum La Pass is a border pass between China's Tsona County in
-						Tibet and India's Tawang district in Arunachal Pradesh. It is 37 km away from the town of Tawang
-						in India's Tawang district and 43 km from the town of Tsona Dzong in China's Tsona County. The
-						pass currently serves as a trading point between Arunachal Pradesh and Tibet. It is also an
-						agreed Border Personnel Meeting point for the security forces of China and India.
-					</div>
-					<ul class="postcard__tagbox">
-						<li class="tag__item"><i class="fa fa-compass" aria-hidden="true"></i> Direction</li>
-						<!-- <li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
+                    </div>
+                    <div class="postcard__bar"></div>
+                    <div class="postcard__preview-txt">The Bum La Pass is a border pass between China's Tsona County in Tibet and India's Tawang district in Arunachal Pradesh. It is 37 km away from the town of Tawang in India's Tawang district and 43 km from the town of Tsona Dzong in
+                        China's Tsona County. The pass currently serves as a trading point between Arunachal Pradesh and Tibet. It is also an agreed Border Personnel Meeting point for the security forces of China and India.
+                    </div>
+                    <ul class="postcard__tagbox">
+                        <li class="tag__item"><i class="fa fa-compass" aria-hidden="true"></i> Direction</li>
+                        <!-- <li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
 					<li class="tag__item play red">
 						<a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
 					</li> -->
-					</ul>
-				</div>
-			</article>
+                    </ul>
+                </div>
+            </article>
 
 
-			<article class="postcard light yellow">
-				<a class="postcard__img_link" href="#">
-					<img class="postcard__img" src="images/nongjrong.jpg" alt="Image Title" />
-				</a>
-				<div class="postcard__text t-dark" style="padding-left: 50px;">
-					<h1 class="postcard__title yellow"><a href="#">Nongjrong-Meghalaya</a></h1>
-					<div class="postcard__subtitle small">
-						<time datetime="2020-05-25 12:00:00">
+            <article class="postcard light yellow">
+                <a class="postcard__img_link" href="#">
+                    <img class="postcard__img" src="images/nongjrong.jpg" alt="Image Title" />
+                </a>
+                <div class="postcard__text t-dark" style="padding-left: 50px;">
+                    <h1 class="postcard__title yellow"><a href="#">Nongjrong-Meghalaya</a></h1>
+                    <div class="postcard__subtitle small">
+                        <time datetime="2020-05-25 12:00:00">
 							<i class="fas fa-calendar-alt mr-2"></i>Sun, April 28th 2024
 						</time>
-					</div>
-					<div class="postcard__bar"></div>
-					<div class="postcard__preview-txt">Nongjrong is a village in the East Khasi Hills district of
-						Meghalaya, India. It's a less-visited destination known for its scenic beauty, including:
-						Lush green landscapes
-						Rolling hills
-						Cascading waterfalls</div>
-					<ul class="postcard__tagbox">
-						<li class="tag__item"><i class="fa fa-compass" aria-hidden="true"></i> Direction</li>
-						<!-- <li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
+                    </div>
+                    <div class="postcard__bar"></div>
+                    <div class="postcard__preview-txt">Nongjrong is a village in the East Khasi Hills district of Meghalaya, India. It's a less-visited destination known for its scenic beauty, including: Lush green landscapes Rolling hills Cascading waterfalls</div>
+                    <ul class="postcard__tagbox">
+                        <li class="tag__item"><i class="fa fa-compass" aria-hidden="true"></i> Direction</li>
+                        <!-- <li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
 					<li class="tag__item play yellow">
 						<a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
 					</li> -->
-					</ul>
-				</div>
-			</article>
+                    </ul>
+                </div>
+            </article>
 
 
-			<article class="postcard light green">
-				<a class="postcard__img_link" href="#">
-					<img class="postcard__img" src="images/zuko.jpeg" alt="Image Title" />
-				</a>
-				<div class="postcard__text t-dark" style="padding-right: 40px;">
-					<h1 class="postcard__title green" align="right"><a href="#">Dzuko Valley</a></h1>
-					<div class="postcard__subtitle small" align="right">
-						<time datetime="2020-05-25 12:00:00">
+            <article class="postcard light green">
+                <a class="postcard__img_link" href="#">
+                    <img class="postcard__img" src="images/zuko.jpeg" alt="Image Title" />
+                </a>
+                <div class="postcard__text t-dark" style="padding-right: 40px;">
+                    <h1 class="postcard__title green" align="right"><a href="#">Dzuko Valley</a></h1>
+                    <div class="postcard__subtitle small" align="right">
+                        <time datetime="2020-05-25 12:00:00">
 							<i class="fas fa-calendar-alt mr-2"></i>Sun, April 28th 2024
 						</time>
-					</div>
-					<div class="postcard__bar"></div>
-					<div class="postcard__preview-txt">The Dzüko Valley also known as Dzükou Valley or Dziiko Valley, is
-						a valley located in between Senapati district of Manipur and Kohima district of Nagaland in
-						Northeast India. This valley is well known for its natural environment, seasonal flowers and
-						flora & fauna.
-
-						It is situated at an altitude of 2,452 m (8,045 ft) above sea level. The valley is famous for
-						its wide range of flowers in every season but the most famous one is the "Dzükou Lily" (Lilium
-						chitrangadae), named after the mother of its discoverer, Hijam Bikramjit, a researcher of the
-						Life Sciences Department, Manipur University, in the summer of 1991. This lily species is opined
-						by some botanists to be similar to Shirui lily (Lilium mackliniae), with the only difference in
-						being deeper in pink colour.</div>
-					<ul class="postcard__tagbox">
-						<li class="tag__item"><i class="fa fa-compass" aria-hidden="true"></i> Direction</li>
-						<!-- <li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
+                    </div>
+                    <div class="postcard__bar"></div>
+                    <div class="postcard__preview-txt">The Dzüko Valley also known as Dzükou Valley or Dziiko Valley, is a valley located in between Senapati district of Manipur and Kohima district of Nagaland in Northeast India. This valley is well known for its natural environment, seasonal
+                        flowers and flora & fauna. It is situated at an altitude of 2,452 m (8,045 ft) above sea level. The valley is famous for its wide range of flowers in every season but the most famous one is the "Dzükou Lily" (Lilium chitrangadae),
+                        named after the mother of its discoverer, Hijam Bikramjit, a researcher of the Life Sciences Department, Manipur University, in the summer of 1991. This lily species is opined by some botanists to be similar to Shirui lily (Lilium
+                        mackliniae), with the only difference in being deeper in pink colour.</div>
+                    <ul class="postcard__tagbox">
+                        <li class="tag__item"><i class="fa fa-compass" aria-hidden="true"></i> Direction</li>
+                        <!-- <li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
 					<li class="tag__item play green">
 						<a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
 					</li> -->
-					</ul>
-				</div>
-			</article>
+                    </ul>
+                </div>
+            </article>
 
 
 
-			<article class="postcard light yellow">
-				<a class="postcard__img_link" href="#">
-					<img class="postcard__img" src="images/siv.jpg" alt="Image Title" />
-				</a>
-				<div class="postcard__text t-dark" style="padding-left: 50px;">
-					<h1 class="postcard__title yellow"><a href="#">Sivasagar</a></h1>
-					<div class="postcard__subtitle small">
-						<time datetime="2020-05-25 12:00:00">
+            <article class="postcard light yellow">
+                <a class="postcard__img_link" href="#">
+                    <img class="postcard__img" src="images/siv.jpg" alt="Image Title" />
+                </a>
+                <div class="postcard__text t-dark" style="padding-left: 50px;">
+                    <h1 class="postcard__title yellow"><a href="#">Sivasagar</a></h1>
+                    <div class="postcard__subtitle small">
+                        <time datetime="2020-05-25 12:00:00">
 							<i class="fas fa-calendar-alt mr-2"></i>Sun, April 28th 2024
 						</time>
-					</div>
-					<div class="postcard__bar"></div>
-					<div class="postcard__preview-txt">Sivasagar district, formerly known as Sibsagar, is one of the 34
-						districts of Assam state in Northeast India. Sivasagar city is the administrative headquarters
-						of this district. This historic place is also known for its rich biodiversity. The districts
-						covers an area of 2668 square kilometers (of the total area of 78438 square kilometers of
-						Assam). The district comprises two sub-divisions – Sivasagar and Nazira. The district of
-						Sivasagar lies between 26.45°N and 27.15°N latitudes and 94.25°E and 95.25°E longitudes. The
-						district is bounded by the Brahmaputra River to the north, Nagaland to the south, the Charaideo
-						district to the east and the Jhanji River to the west. The Sivasagar district has acquired its
-						distinct identity due to the co-existence of different races, tribes, languages and cultures.
-					</div>
-					<ul class="postcard__tagbox">
-						<li class="tag__item"><i class="fa fa-compass" aria-hidden="true"></i> Direction</li>
-						<!-- <li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
+                    </div>
+                    <div class="postcard__bar"></div>
+                    <div class="postcard__preview-txt">Sivasagar district, formerly known as Sibsagar, is one of the 34 districts of Assam state in Northeast India. Sivasagar city is the administrative headquarters of this district. This historic place is also known for its rich biodiversity.
+                        The districts covers an area of 2668 square kilometers (of the total area of 78438 square kilometers of Assam). The district comprises two sub-divisions – Sivasagar and Nazira. The district of Sivasagar lies between 26.45°N and
+                        27.15°N latitudes and 94.25°E and 95.25°E longitudes. The district is bounded by the Brahmaputra River to the north, Nagaland to the south, the Charaideo district to the east and the Jhanji River to the west. The Sivasagar district
+                        has acquired its distinct identity due to the co-existence of different races, tribes, languages and cultures.
+                    </div>
+                    <ul class="postcard__tagbox">
+                        <li class="tag__item"><i class="fa fa-compass" aria-hidden="true"></i> Direction</li>
+                        <!-- <li class="tag__item"><i class="fas fa-clock mr-2"></i>55 mins.</li>
 					<li class="tag__item play yellow">
 						<a href="#"><i class="fas fa-play mr-2"></i>Play Episode</a>
 					</li> -->
-					</ul>
-				</div>
-			</article>
-		</div>
-	</section>
+                    </ul>
+                </div>
+            </article>
+        </div>
+    </section>
 
-	<a href="#top" class="to-top">
-		<i class="fas fa-chevron-up"></i>
-	</a>
+    <a href="#top" class="to-top">
+        <i class="fas fa-chevron-up"></i>
+    </a>
 
-	<!-- custom js file link  -->
-	<script src="js/allscript.js"></script>
+    <!-- custom js file link  -->
+    <script src="js/allscript.js"></script>
 
 
 
